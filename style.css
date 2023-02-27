@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  align-items: center;
+}
+
+.header .title {
+  font-size: 30px;
+  padding-left: 40px;
+}
+.header i {
+  font-size: 20px;
+}
+.section {
+  padding-bottom: 30px;
+}
+.section .memo {
+  padding: 30px 114px;
+  width: 600px;
+  line-height: 24px;
+}
+.section .slide {
+  height: 500px;
+  width: 100%;
+  transform: skewY(-7deg);
+
+  background-image: url("/image/image1.jpg");
+  background-size: 1710px;
+  background-position: 0px 900px;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  text-align: center;
+}
+.main .memo {
+  line-height: 24px;
+}
+.main .btn {
+  background-color: white;
+  border-color: darkgray;
+  padding: 16px 24px;
+}
+.main div {
+  padding: 30px 40px;
+}
+.main .title {
+  font-size: 40px;
+}
+.section2 .slide {
+  height: 500px;
+  width: 100%;
+  transform: skewY(7deg);
+
+  background-image: url("/image/image2.jpg");
+  background-size: 1710px;
+  background-position: 0px 900px;
+  overflow: hidden;
+}
+.section2 {
+  padding-bottom: 30px;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.section3 .title {
+  font-size: 40px;
+}
+.section3 .menu {
+  display: flex;
+  padding: 12px 14px 80px 14px;
+  font-size: 20px;
+}
+.section3 .menu ul {
+  line-height: 50px;
+  margin: 0px 80px;
+  padding: 30px 50px;
+  background-color: #f5f5f5;
+  box-shadow: 5px 10px #b19775;
+  border-radius: 0px;
+  list-style: none;
+}
+.section3 .menu li {
+  border-bottom: 1px dotted black;
+  text-align: left;
+  font-family: "Open Sans";
+}
+.section3 div {
+  padding: 30px 40px;
+}
+.section3 .slide {
+  height: 700px;
+  width: 95.3%;
+  transform: skewY(-7deg);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/image/image2-1.jpg");
+  filter: grayscale(0%);
+  background-size: 1710px;
+  background-position: 0px 900px;
+  overflow: hidden;
+  backdrop-filter: grayscale(100%);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.section3 .slide .title {
+  font-size: 40px;
+  color: white;
+  transform: skewY(7deg);
+}
+.section3 .slide .memo {
+  color: white;
+  font-size: 20px;
+  transform: skewY(7deg);
+  font-weight: 800;
+}
+
+.section3 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.section3 .profile {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.section3 .profile ul {
+  list-style: none;
+  padding: 12px 40px;
+}
+.section3 .profile li {
+  padding: 12px 14px;
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+}
+.section3 .info {
+  display: flex;
+  text-align: left;
+  padding: 20px 5px;
+}
+.section3 .info ul {
+  list-style: none;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section3 .info li {
+  padding: 15px 0px;
+}
+.section3 .info .btn {
+  background-color: white;
+  border-color: darkgray;
+  padding: 16px 24px;
+  width: 30%;
+}
+.section3 .info .number {
+  color: #bdbdbd;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section3 .info .ttl {
+  font-size: 30px;
+  font-weight: 800;
+  align-items: center;
+}
+.section3 .info .memo {
+  height: 130px;
+}
+.section4 .slide {
+  height: 600px;
+  width: 100%;
+  transform: skewY(7deg);
+
+  background-image: url("/image/image2-2.jpg");
+  background-size: 1710px;
+  background-position: 0px 900px;
+  overflow: hidden;
+  backdrop-filter: grayscale(100%);
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.section4 .place {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section4 .place .ttl2 {
+  font-weight: 800;
+  font-size: 40px;
+  padding: 20px 0px;
+}
+
+.section4 .place ul {
+  list-style: none;
+  padding: 20px 0px;
+}
+.section4 .place .text {
+  padding: 15px 0px;
+}
+.section4 .place .btn {
+  background-color: white;
+  border-color: darkgray;
+  padding: 10px 24px;
+}
+.section4 .place .memo2 {
+  line-height: 30px;
+  padding-top: 10px;
+}
+footer {
+  height: 50px;
+}
+footer .slide {
+  height: 500px;
+  width: 100%;
+  transform: skewY(-3deg);
+  margin-top: 60px;
+  background-image: url("/image/image2-3.jpg");
+  background-size: 1710px;
+  background-position: 0px 700px;
+  overflow: hidden;
+}
